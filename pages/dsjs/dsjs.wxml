@@ -1,0 +1,31 @@
+<!--dsjs.wxml-->
+<view style="width:100%;">
+  <!--<view class="list">底砂类型</view>-->
+  <picker bindchange="dsChange" value="{{index}}" range="{{array}}" >
+    <view style="background-color:#efefef;padding: 19rpx 30rpx ;" >
+      底砂类型：{{array[index]}}
+    </view>
+  </picker>
+</view>
+<view class="bt"></view>
+<view class="list">
+  <text class="listtext">铺设鱼缸长度（单位cm）</text>
+  <view class="">
+    <slider bindchange="change1" min="20" max="300" show-value/>
+  </view>
+</view>
+<view class="list">
+  <text class="listtext">铺设鱼缸宽度（单位cm）</text>
+  <view class="body-view">
+    <slider bindchange="change2" min="10" max="100" show-value/>
+  </view>
+</view>
+<view class="list">
+  <text class="listtext">铺设厚度（单位cm）</text>
+  <view class="body-view">
+    <slider bindchange="change3" min="1" max="50" show-value/>
+  </view>
+</view>
+<view class="list">
+  <text class="listtext">底砂约为 </text><text>{{dszl}}</text>
+</view>

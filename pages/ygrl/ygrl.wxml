@@ -1,0 +1,25 @@
+<!--ygrl.wxml-->
+
+<view class="bt"></view>
+<view class="list">
+  <text class="listtext">水体长度（单位cm）</text>
+  <view class="">
+    <slider bindchange="change1" min="20" max="300" show-value/>
+  </view>
+</view>
+<view class="list">
+  <text class="listtext">水体宽度（单位cm）</text>
+  <view class="body-view">
+    <slider bindchange="change2" min="10" max="100" show-value/>
+  </view>
+</view>
+<view class="list">
+  <text class="listtext">水体高度（单位cm）</text>
+  <view class="body-view">
+    <slider bindchange="change3" min="10" max="100" show-value/>
+  </view>
+</view>
+<view class="list">
+  <text class="listtext">水量约为 </text><text>{{zsl}}</text>
+</view>
+

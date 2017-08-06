@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/ygrl/ygrl",
+    "pages/dsjs/dsjs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "雷龙鱼玩家",
+    "navigationBarTextStyle": "black"
+  }
+}

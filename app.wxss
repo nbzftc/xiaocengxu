@@ -1,0 +1,22 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16rpx 0;
+  box-sizing: border-box;
+} 
+
+
+.listtext{
+  margin:30px 10px;
+  padding: 0px;
+  font-size: 19px;
+}
+
+.list{
+  margin:0rpx;
+  padding: 30px ;
+}

@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{motto}}{{userInfo.nickName}}</text>
+  </view>
+<!--  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+
+</view>
+
+
+
+
+
+<view class="container2 " bindtap="bindViewlist">
+  <view class="flex-item" style="width:10%;float:left;">
+     <image style="width: 16px; " class="icon" mode="scaleToFill" src="../../img/shuiwei.png"></image>
+  </view>
+  <view class="flex-item" style="width:80%;float:left;">   
+     <text class="listtext" >鱼缸水体计算工具</text>
+  </view>
+  <view class="flex-item" style="width:10%;float:left;">  
+     <image style="width: 6px; " class="icon" mode="scaleToFill" src="../../img/right_arrow.png"></image>
+  </view>
+</view>
+<view class="container3 " bindtap="ViewDSJS">
+  <view class="flex-item" style="width:10%;float:left;">
+     <image style="width: 16px; " class="icon" mode="scaleToFill" src="../../img/disha.png"></image>
+  </view>
+  <view class="flex-item" style="width:80%;float:left;">   
+     <text class="listtext" >底砂计算工具</text>
+  </view>
+  <view class="flex-item" style="width:10%;float:left;">  
+     <image style="width: 6px; " class="icon" mode="scaleToFill" src="../../img/right_arrow.png"></image>
+  </view>
+</view>
+
+
+

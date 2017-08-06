@@ -1,0 +1,16 @@
+/* ygrl.wxss */
+.listtext{
+  margin:30px 10px;
+  padding: 0px;
+  font-size: 19px;
+}
+
+.list{
+  margin:0rpx;
+  padding: 30px ;
+}
+
+.bt{
+  border-top:1rpx solid #eee;
+  padding-bottom:20px; 
+}
